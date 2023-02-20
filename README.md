@@ -2,4 +2,5 @@
 
 TÜRKİYE DEPREMLER VE FAY HATLARI 
 
-Canlı Link :
+Canlı Link : https://rkoksal.github.io/deprembs/ 
+
