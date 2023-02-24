@@ -2,22 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Deprem BS </title>
+    <title>Deprem BS</title>
     <style>
-        * {
-            padding: 0;
+        html, body {
             margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
         }
         .test {
-            width: 100vw;
-            height: 100vh;
+            width: 100%;
+            height: 100%;
+            border: none; /* remove the border */
+            overflow: hidden; /* hide the scrollbars */
         }
     </style>
 </head>
 <body>
-    <iframe class="test" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" 
-src="https://experience.arcgis.com/experience/49c6c00db2fb42e3961a88cff6d6a172/"></iframe>
+    <iframe class="test" frameborder="0" scrolling="no" src="https://experience.arcgis.com/experience/49c6c00db2fb42e3961a88cff6d6a172/" allowfullscreen></iframe>
 </body>
 </html>
